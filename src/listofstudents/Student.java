@@ -49,22 +49,10 @@ public class Student {
   
   public int getId()
   {
-      return id;
+      return 0;
   }
-
-    /**
-     * @return the DOB
-     */
-    public int getDOB() {
-        return 0;
-    }
-
-    /**
-     * @param DOB the DOB to set
-     */
-    public void setDOB(String DOB) {
-        this.DOB = DOB;
-    }
+  
+  ///getter and setter are removed
 
     /**
      * @return the maxHours
