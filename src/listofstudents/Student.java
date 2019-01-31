@@ -43,6 +43,10 @@ public class Student {
   {
       id = givenId;
   }
+  /**
+     * @ return the Id of the student
+     */
+  
   public int getId()
   {
       return id;
@@ -51,8 +55,8 @@ public class Student {
     /**
      * @return the DOB
      */
-    public String getDOB() {
-        return DOB;
+    public int getDOB() {
+        return 0;
     }
 
     /**
